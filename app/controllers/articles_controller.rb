@@ -3,7 +3,7 @@ class ArticlesController < ApplicationController
 
   def index
     @articles = Article.all
-    render json: @categories
+    render json: @articles
   end
 
   def show
@@ -31,7 +31,7 @@ class ArticlesController < ApplicationController
 
   def article_params
     return {} unless params.has_key?(:article)
-    params.require(:article).permit(:featured, :title, :url, :imageUrl. :newsSite, :summary, :publishedAt, :launches, :events)
+    params.require(:article).permit(:featured, :title, :url, :imageUrl, :newsSite, :summary, :publishedAt, :launches, :events)
   end
 
   def set_article

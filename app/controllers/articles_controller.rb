@@ -40,6 +40,7 @@ class ArticlesController < ApplicationController
 
   def save_article!
     @article.save!
+    puts "Article has been saved"
     render :show
   rescue
     render_error(fields: @article.errors.messages)

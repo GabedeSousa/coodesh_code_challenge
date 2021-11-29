@@ -16,7 +16,7 @@ The application is consuming an external API (api.spaceflightnewsapi.net) and ha
 
 1. Postgres installed.
 2. Ruby >= 2.5.0 installed(minimum required Rails version is 6.1.4.1, the version we are working with).
-3. Run Bundle install
+3. Run Bundle install <br/>
  ```bundle install```
 
  **Manually building everything**

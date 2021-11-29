@@ -1,26 +1,24 @@
-# README
+# Coodesh Code Challenge
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is an open source API for a Code Challenge provided by coodesh.com
 
-hello world.
+**STACK**
 
-Things you may want to cover:
+- Rails 6.1.4.1
+- Postgresql
+- Jbuilder for rendering
 
-* Ruby version
+**How to use it?**
 
-* System dependencies
+We have two endpoints to be used by users with no need for authentication.
 
-* Configuration
+Articles endpoint has CRUD functionalities.
 
-* Database creation
+**Building Application**
 
-* Database initialization
+1. Postgres installed.
+2. Ruby >= 2.5.0 installed(minimum required Rails version is 6.1.4.1, the version we are working with).
+3. Run Bundle install
+ ```bundle install```
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

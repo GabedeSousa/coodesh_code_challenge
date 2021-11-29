@@ -21,12 +21,12 @@ The application is consuming an external API (api.spaceflightnewsapi.net) and ha
 
  **Manually building everything**
 
-```rails db:create```
-```rails db:migrate```
-```rails db:seed```
-```rails s```
+```rails db:create```<br/>
+```rails db:migrate```<br/>
+```rails db:seed```<br/>
+```rails s```<br/>
 
-If you would like to run tests
+If you would like to run tests:
 
 ```bundle exec rspec```
 

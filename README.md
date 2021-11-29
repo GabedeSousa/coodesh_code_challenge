@@ -1,6 +1,6 @@
 # Coodesh Code Challenge
 
-This is an open source API for a Code Challenge provided by coodesh.com
+This is an open source API developed for a Code Challenge provided by coodesh.com
 
 **STACK**
 
@@ -10,9 +10,7 @@ This is an open source API for a Code Challenge provided by coodesh.com
 
 **How to use it?**
 
-We have two endpoints to be used by users with no need for authentication.
-
-Articles endpoint has CRUD functionalities.
+The application is consuming an external API (api.spaceflightnewsapi.net) and has currently two endpoints allowing users to make CRUD operations.
 
 **Building Application**
 
@@ -20,5 +18,19 @@ Articles endpoint has CRUD functionalities.
 2. Ruby >= 2.5.0 installed(minimum required Rails version is 6.1.4.1, the version we are working with).
 3. Run Bundle install
  ```bundle install```
+
+ **Manually building everything**
+
+```rails db:create```
+```rails db:migrate```
+```rails db:seed```
+```rails s```
+
+If you would like to run tests
+
+```bundle exec rspec```
+
+
+
 
 

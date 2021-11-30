@@ -1,5 +1,4 @@
 class Article < ApplicationRecord
-  validates :featured, presence: true
   validates :title, presence: true
   validates :url, presence: true
   validates :imageUrl, presence: true

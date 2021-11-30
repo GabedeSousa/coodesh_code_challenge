@@ -30,6 +30,10 @@ If you would like to run tests:
 
 ```bundle exec rspec```
 
+**Link para apresentação**
+
+https://www.loom.com/share/fa7e8e94dbd04f9b926540f19e26ba3e
+
 
 
 
